@@ -1,0 +1,742 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Dosis", sans-serif;
+}
+
+.başlık{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    
+    height: 49px;
+    width: 1519px;
+    /* background-color: antiquewhite; */
+    align-items: left;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+   
+
+
+
+}
+
+.başlık .navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 150px;
+   
+}
+.başlık .navbar p{
+    justify-content: space-around;
+    padding: 0px 18px;
+    cursor: pointer;
+}
+
+.başlık .navbar  .more{
+    color:  #ff764d;
+}
+
+
+
+.sağ{
+    display: flex;
+    position: relative;
+    left: 250px;
+    cursor: pointer;
+
+}
+
+.navbar .sağ .PBir{
+    color: #0000ff;
+
+}
+
+.navbar .sağ .Pİki{
+    font-size: 16px;
+    line-height: 35px;
+
+}
+
+.başlıkiki{
+    height: 68px;
+    width: 1400px;
+    max-width: 1600px;
+    padding: 20px 40px 20px 40px;
+    position: relative;
+    /* border: 1px solid black; */
+    display: flex;
+    /* top: 60px;
+    justify-content: space-around;
+    right: 600px; */
+    top: 0px;
+    bottom: 0px;
+    left: 80px;
+   
+   
+}
+
+.başlıkiki p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    padding: 0px 15px ;
+    cursor: pointer;
+}
+
+.Anaİmg{
+    height: 609.6px;
+    width: 1000.03px; 
+    margin: 0 128px 128px 128px;
+    min-height: 609.06px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    position: relative;
+}
+
+.Anaİmg img{
+    height: 609.6px;
+    width: 1000.03px; 
+    margin: 0 128px 128px 128px;
+    min-height: 609.06px;
+
+}
+
+.Anaİmg .Krc{
+    position: absolute;
+    bottom: 0px;
+    right: 18%;
+    top: 30%;
+    color: #ff764d;
+    font-size: 150px;
+}
+
+.MetinBir{
+    height: 207px;
+    width: 768px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 355px;
+}
+
+.MetinBir h1{
+    font-size: 30px;
+    font-variant: common-ligatures;
+    font-weight: 700;
+    line-height: 42px;
+    padding-bottom: 20px ;
+}
+
+.MetinBir h1 span{
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.MetinBir p{
+    font-size: 20px;
+    line-height: 30px;
+}
+  
+.container{
+    position: relative;
+}
+
+.container .Yanİmg{
+    height: 895.987px;
+    width: 878.987px;
+    position: absolute;
+    top: 200px;
+    /* bottom: -0.0125px; */
+    bottom: -0.0125px;
+    right:0.0125px;
+    left: 640px;
+    background-color: #FBFFA7;
+}
+
+.container .Yanİmg img{
+    height: 384px;
+    width: 511.987px;
+    margin: 0 0 0 128px;
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    left: 150px;
+
+
+}
+
+.container .Yanİmg .İmgiki{
+    height: 640px;
+    width: 640px;
+    margin: 0 0 0 128px;
+    position: absolute;
+    top:130px;
+    left: -630px;
+
+}
+
+
+.Metinİki{
+    height: 207px;
+    width: 768px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 355px;
+    top: 1200px;
+    
+}
+
+.Metinİki h1{
+    font-size: 30px;
+    font-variant: common-ligatures;
+    font-weight: 700;
+    line-height: 42px;
+    padding-bottom: 20px ;
+}
+
+.Metinİki p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Video {
+    height: 432px;
+    width: 768px;
+    max-width: 100%;
+    position: relative;
+    top: 1300px;
+    left: 350px;
+}
+   
+.MetinÜç{
+    height: 207px;
+    width: 768px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 355px;
+    top: 1480px;
+    
+}
+
+.MetinÜç h1{
+    font-size: 30px;
+    font-variant: common-ligatures;
+    font-weight: 700;
+    line-height: 42px;
+    padding-bottom: 20px ;
+}
+
+.MetinÜç p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.containerİki{
+    height: 1152px;
+    width: 895.987px;
+    position: absolute;
+    top: 3710px;
+    bottom: -0.0375px;
+    right: 640.013px;
+    left: 0px;
+    display: block;
+    z-index: 0;
+    background-color: #B6FFC0;
+    /* display: block !important; */
+
+}
+
+.containerİki img{
+  height: 384px;
+  width: 511.987px;
+  display: block;
+  /* margin: 30px 0px; */
+  position: relative;
+  left: 90px;
+  
+}
+.containerİki #bir{
+    margin-bottom: 100px;
+}
+.containerİki #iki{
+    margin-top: 300px;
+}
+
+.containerİki .İmgG{
+    height: 640px;
+    width: 640px;
+   position: absolute;
+   right: -50%;
+   top: 25%;
+}
+
+.containerİki .İmgG img{
+    height: 640px;
+    width: 640px;
+}
+
+.MetinDört{
+    height: 207px;
+    width: 768px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 355px;
+    top: 210px;
+}
+
+
+.MetinDört h1{
+    font-size: 30px;
+    font-variant: common-ligatures;
+    font-weight: 700;
+    line-height: 42px;
+    padding-bottom: 20px ;
+
+}
+
+.MetinDört p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Bigİmg{
+    height: 3466.78px;
+    width: 1280.03px;
+}
+
+.Bigİmg img{
+    height: 720.013px;
+    width: 1280.03px;
+    max-width: 100%;
+    display: inline;
+    overflow: clip;
+    position: relative;
+    top: 3520px;
+    left: 130px;
+}
+
+.MetinBeş{
+    height: 207px;
+    width: 768px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 355px;
+    top: 910px;
+
+}
+
+.MetinBeş h1{
+    font-size: 30px;
+    font-variant: common-ligatures;
+    font-weight: 700;
+    line-height: 42px;
+    padding-bottom: 20px ;
+
+}
+
+.MetinBeş p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.MetinBeş .PragrafPadding{
+    padding-bottom: 20px;
+}
+
+
+.containerÜç{
+   height: 870px;
+   width: 1500px;
+   margin: 0 0 128px 0;
+   padding: 128px 0 128px 0;
+   position: relative;
+   /* border: 1px solid red; */
+   top: 1200px;
+
+}
+
+.containerÜç .YanİmgÜç{
+    height: 895px;
+    width: 1024px;
+    position: absolute;
+    top: 0;
+    bottom: -0.0125px;
+    right: 256px;
+    left: 256px;
+    display: block;
+    z-index: 0;
+    background-color: #D5B3FF;
+} 
+
+.containerÜç .YanİmgÜç .İmgDört{
+    height: 384px;
+    width: 511px;
+    margin: 0 0 0 128px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    right: 300px;
+    top:270px ;
+}
+
+.containerÜç .YanİmgÜç .İmgBeş{
+    height: 640px;
+    width: 640px;
+    margin: 0 0 0 256px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    left: 367px;
+    /* bottom: 260px; */
+    bottom: 30%;
+}
+
+
+.MetinAltı{
+    height: 207px;
+    width: 768px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 355px;
+    top: 1250px;
+
+}
+
+.MetinAltı h1{
+    font-size: 30px;
+    font-variant: common-ligatures;
+    font-weight: 700;
+    line-height: 42px;
+    padding-bottom: 20px ;
+
+}
+
+.MetinAltı p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.containerDört{
+    height: 640px;
+    width: 1519px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 1550px;
+    display: flex;
+}
+
+.containerDört .hero img{
+height: 640px;
+width: 640px;
+margin: 0 0 0 128px;
+display: inline-block;
+}
+
+.containerDört .heroiki{
+    height: 640px;
+    width: 640px;
+    padding: 128px 128px 128px 128px;
+    display: inline-block;
+    background-color: #B1C5FF;
+}
+
+.containerDört .heroiki h1{
+    line-height: 42px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.containerDört .heroiki p{
+    font-size: 30px;
+    color: #0000ff;
+    line-height: 42px;
+    margin: 30px 0px 0px ;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer{
+    border-top:1px solid gray;
+    height: 812px;
+    width: 1519px;
+    padding: 128px 0 0 0;
+    position: relative;
+    top: 1700px;
+    display: block;
+    
+    
+}
+
+.footer .Ana-footer{
+    height: 117.4px;
+    width: 1280px;
+    padding: 0 10px 64px 0;
+    float: left;
+    position: relative;
+    bottom: -10px;
+    left: 150px;
+    display: block;
+}
+
+.footer .Ana-footer h1{
+    font-size: 60px;
+    line-height: 30px;
+    font-weight: bold;
+    display: block;
+    
+}
+
+/* .row-footer{
+height: 216.4px;
+width: 1490px;
+padding: 0 0 64px 0;
+border: 1px solid red;
+display: flex;
+} */
+
+.footer .Alt-footer{
+    height: 204px;
+    width: 384px;
+    padding: 0 10px 64px 0;
+    display: block;
+    position: relative;
+    bottom: -10px;
+    left: 150px;
+}
+
+.footer .Alt-footer p{
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    /* display: inline; */
+    padding: 5px 0px;
+}
+
+.footer .Alt-footer img{
+    height: 80px;
+    cursor: pointer;
+    position: relative;
+    left: -3px;
+}
+
+.footer .Alt-footeriki{
+    height: 204px;
+    width: 384px;
+    padding: 0 10px 64px 0;
+    display: block;
+    position: relative;
+    bottom: -200px;
+    left: 150px;
+}
+
+.footer .Alt-footeriki h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.footer .Alt-footeriki p{
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    /* display: inline; */
+    padding: 5px 0px;
+}
+
+.footer .Alt-footerÜç{
+    height: 184px;
+    width: 384px;
+    padding: 0 10px 64px 0;
+    position: relative;
+    left: 550px;
+    top: -310px;
+}
+
+.footer .Alt-footerÜç p{
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    /* display: inline; */
+    padding: 5px 0px;
+}
+
+.footer .Alt-footerÜç h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+.footer .Alt-footerDört{
+    height: 184px;
+    width: 384px;
+    padding: 0 10px 64px 0;
+    position: relative;
+    left: 1000px;
+    top: -490px;
+}
+
+
+.footer .Alt-footerDört h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.footer .Alt-footerDört p{
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    /* display: inline; */
+    padding: 5px 0px;
+}
+
+.footer .Alt-footerDört input{
+    height: 42px;
+    width: 392px;
+    padding: 8px 15px 8px 15px;
+    cursor: text;
+    display: inline-block;
+    background-color: #EEEEEE;
+    font-size: 20px;
+    border: none;
+}
+
+.footer .Alt-footerDört button{
+    height: 42px;
+    width: 120px;
+    padding: 7px 30px 7px 30px;
+    min-width: auto;
+    cursor: pointer;
+    background-color: #0000ff;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    border: none;
+   position: relative;
+   bottom: 42px;
+   left: 386px;
+}
+
+.footer .Alt-footerBeş{
+    height: 184px;
+    width: 384px;
+    padding: 0 20px 64px 0;
+    position: relative;
+    left: 543px;
+    top: -370px;
+}
+
+.footer .Alt-footerBeş select{
+    height: 30px;
+    width: 116px;
+    cursor: pointer;
+    background-color: #EEEEEE;
+}
+
+.footer .Alt-footerBeş .yer{
+    height: 30px;
+    width: 200px;
+    padding: 5px 50px 5px 11px;
+    cursor: pointer;
+}
+
+.footer .Alt-footerBeş h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+.footer-son{
+    height: 166px;
+    width: 1280px;
+    padding: 0 0 128px 0;
+    position: relative;
+    display: flex;
+    left: 120px;
+    bottom: 200px;
+}
+
+.footer-son p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0px 25px;
+}
+
+.footer-son .krcCc {
+    font-family: "Great Vibes", cursive;
+    font-size: 25px;
+    /* position: relative; */
+    /* left: 100px; */
+}
+
+
+
+
+@media (max-width: 991px) {
+
+    body {
+      font-size: 14px;
+    }
+
+
+    .başlık,
+    .başlıkiki,
+    .footer {
+      max-width: 100%;
+    }
+
+    .MetinBir,
+    .Metinİki,
+    .MetinÜç,
+    .MetinDört,
+    .MetinBeş,
+    .MetinAltı {
+      width: 100%;
+      left: 0;
+    }
+  
+    .Anaİmg,
+    .container {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .Bigİmg img {
+        width: 100%;
+        left: 0;
+      }
+    
+      .footer .Ana-footer,
+      .footer .Alt-footer,
+      .footer .Alt-footeriki,
+      .footer .Alt-footerÜç,
+      .footer .Alt-footerDört,
+      .footer .Alt-footerBeş,
+      .footer .footer-son {
+        width: 50%;
+        display: block;
+      
+      }
+    
+      
+      .footer .Ana-footer h1 {
+        font-size: 30px;
+      }
+
+}
+
+
+
+
+
